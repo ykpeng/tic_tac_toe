@@ -1,0 +1,36 @@
+.ttt {
+  width: 358px;
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li {
+  background: #ccc;
+  border: 3px solid #000;
+  float: left;
+  width: 100px;
+  height: 100px;
+  list-style: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li:hover {
+  background: yellow;
+}
+
+.mark {
+  background: white;
+  color: black;
+}
+
+.mark h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
